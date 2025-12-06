@@ -1,7 +1,7 @@
 Card_Numbers=[2,1,3,4,1,2,3,4]
 Card_id=[1,2,3,4,5,6,7,8]
 while True:
-    num_of_players=input("Πόσοι παικτες θα παίξουν")
+    num_of_players=input("Πόσοι παικτες θα παίξουν?")
     if num_of_players.isdigit():
         break
 for i in range(num_of_players):
